@@ -4,7 +4,7 @@ ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="jonathan"
 
 # Useful oh-my-zsh plugins for Le Wagon bootcamps
-plugins=(git gitfast last-working-dir common-aliases zsh-syntax-highlighting history-substring-search pyenv)
+plugins=(gitfast last-working-dir common-aliases zsh-syntax-highlighting history-substring-search ssh-agent)
 
 # (macOS-only) Prevent Homebrew from reporting - https://github.com/Homebrew/brew/blob/master/docs/Analytics.md
 export HOMEBREW_NO_ANALYTICS=1
@@ -71,3 +71,4 @@ export PYTHONPATH="/home/sidjee/code/jessye-se/data-challenges/04-Decision-Scien
 export GOOGLE_APPLICATION_CREDENTIALS="home/sidjee/.gcp/gcp_601_key.json"
 export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
 export BROWSER='"/mnt/c/Program Files (x86)/Mozilla Firefox/firefox.exe"'
+export BUNDLER_EDITOR="subl $@ >/dev/null 2>&1 -a"
